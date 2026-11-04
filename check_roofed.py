@@ -137,7 +137,7 @@ async def main():
         results = await asyncio.gather(*tasks)
         matches = [r for r in results if r is not None]
         
-        if true:
+        if True:
             send_discord_notification(matches)
 
 if __name__ == "__main__":
